@@ -15,5 +15,8 @@ class Dog
     @@all = []
   end
     
+  def self.print_all 
+    puts @@all.join(" ")
+  end
   
 end
